@@ -3,7 +3,8 @@
 }
 
 body {
-    background: darkslategray;
+    font-family: 'Poppins', sans-serif;
+    background: darkslategrey;
     text-align: center;
 }
 
@@ -15,6 +16,7 @@ h1 {
 }
 
 input {
+    font-family: 'Poppins', sans-serif;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -64,8 +66,7 @@ ul {
 
 li {
     max-width: 400px;
-    /* border: 2px solid rgb(206, 206, 206); */
-    background-color: white;
+    background-color: rgba(255, 255, 255, .5);
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -78,6 +79,7 @@ h2 {
 .card-content {
     display: grid;
     grid-template-columns: 40% 60%;
+    text-align: left;
 }
 
 .card-content img {
