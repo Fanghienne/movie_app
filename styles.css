@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: darkslategrey;
+    background: #161A1D;
     text-align: center;
 }
 
@@ -35,13 +35,13 @@ input::placeholder {
 
 input[type="submit"] {
     border-radius: 5px;
-    background-color: rgb(177, 176, 176);
+    background-color: #E5383B;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(46, 46, 46);
+    background-color: #A4161A;
     color: white;
 }
 
